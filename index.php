@@ -180,7 +180,7 @@ unset($_SESSION['check']);
             </div>
             <div class="form-group">
               <label for="juz">Juz completed</label>
-              <input type="text" class="form-control" id="juz" name="juz" placeholder="e.g. 5 or 3,4,5" required />
+              <input type="text" class="form-control" id="juz" name="juz" placeholder="e.g. 5 or 3,4,5" />
               <small id="emailHelp" class="form-text text-muted">Enter Juz number completed eg 3 and If more
                 than one,
                 seperate with comma eg 2,3,4</small>
@@ -189,7 +189,7 @@ unset($_SESSION['check']);
             <div class="form-group">
               <label for="challenge">Challenge day completed</label>
               <input type="text" class="form-control" id="challenge" name="challenge"
-                placeholder="e.g. 5 for day 5 or 2 for day 2" required />
+                placeholder="e.g. 5 for day 5 or 2 for day 2" />
               <small id="emailHelp" class="form-text text-muted">Enter challenge number completed eg 3 and If more
                 than one,
                 seperate with comma eg 2,3,4</small>
