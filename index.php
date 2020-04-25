@@ -155,10 +155,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           </form>
         </div>
 
-        <div id="record"><small>Kindly register first <a href="#" onclick="registeR(event);">here</a> if you
+        <div id="record"><small>Kindly register first <a style="color:grey" href="#" onclick="registeR(event);">here</a>
+            if you
             have
             not</small> <br>
-          <small>View progress report <a target="_blank" href="/report.php">here</a> </small>
+          <small>View progress report <a style="color:grey" target="_blank" href="/report.php">here</a> </small>
           <br> <br>
           <?php
 if (isset($_SESSION['check'])) {
@@ -171,7 +172,7 @@ if (isset($_SESSION['check'])) {
 }
 unset($_SESSION['check']);
 ?>
-          <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"><br>
+          <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <div class="form-group">
               <label for="name">Whatsapp Number</label>
               <input type="tel" class="form-control" id="name" name="name" placeholder="e.g. Mubaraq Ramadaan"
@@ -227,7 +228,18 @@ unset($_SESSION['check']);
       </section>
     </div>
   </main>
-
+  <!-- <div class="footer" style="margin-top:20px">
+    <span class="text-muted my-5 py-5 ">Built with &#9829; by <a style="color:grey;"
+        href="https://github.com/abdulloooh/amwtq_tracking_app" target="_blank"
+        rel="noopener noreferrer">Abdullah</a></span>
+  </div> -->
+  <!-- <footer class="footer">
+    <div class="container">
+      <span class="text-muted my-5 py-5 ">Built with &#9829; by <a style="color:grey;"
+          href="https://github.com/abdulloooh/amwtq_tracking_app" target="_blank"
+          rel="noopener noreferrer">Abdullah</a></span>
+    </div>
+  </footer> -->
   <script src=" script.js">
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

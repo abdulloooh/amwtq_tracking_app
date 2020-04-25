@@ -52,7 +52,11 @@ $_SESSION['data'] = json_decode($data, true);
       </section>
     </div>
   </main>
-
+  <div class="footer">
+    <span class="text-muted my-5 py-5 ">Built with &#9829; by <a style="color:grey;"
+        href="https://github.com/abdulloooh/amwtq_tracking_app" target="_blank"
+        rel="noopener noreferrer">Abdullah</a></span>
+  </div>
   <script src=" script.js">
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
