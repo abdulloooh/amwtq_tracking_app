@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $juzyuProcessing = [];
 
             foreach ($juzyu as $j) {
-                if ($j === "" || $j === " ") {} else {array_push($juzyuProcessing, trim($j));}
+                if ($j === "" || $j === " " || strlen(trim($j)) > 2) {} else {array_push($juzyuProcessing, trim($j));}
             }
             $juzyu = $juzyuProcessing;
 
@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $chProcessing = [];
 
             foreach ($ch as $c) {
-                if ($c === "" || $c === " ") {} else {array_push($chProcessing, trim($c));}
+                if ($c === "" || $c === " " || strlen(trim($c)) > 2) {} else {array_push($chProcessing, trim($c));}
             }
             $ch = $chProcessing;
 
