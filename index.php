@@ -143,8 +143,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <div class="form-group">
               <label for="name">Whatsapp Number</label>
-              <input type="number" class="form-control" id="name" name="name" placeholder="2348012345678 or 08012345678"
-                required />
+              <input type="number" class="form-control" id="name" name="name"
+                placeholder="eg 2348012345678 or 08012345678" required />
               <small id="emailHelp" class="form-text text-muted">Note: whatever format used for registration
                 will only
                 be recognized for your accoutn henceforth</small>
@@ -175,8 +175,8 @@ unset($_SESSION['check']);
           <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <div class="form-group">
               <label for="name">Whatsapp Number</label>
-              <input type="tel" class="form-control" id="name" name="name" placeholder="e.g. Mubaraq Ramadaan"
-                required />
+              <input type="tel" class="form-control" id="name" name="name" required />
+              <small id="emailHelp" class="form-text text-muted">format as used durring registration</small>
 
             </div>
             <div class="form-group">
