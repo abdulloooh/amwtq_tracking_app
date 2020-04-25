@@ -126,7 +126,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <li class="nav-item">
             <a class="nav-link" href="#" onclick="recorD(event);">Record</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="/report.php">Report</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -157,7 +159,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if you
             have
             not</small> <br>
-
+          <small>View progress report <a style="color:grey" target="_blank" href="/report.php">here</a> </small>
           <br> <br>
           <?php
 if (isset($_SESSION['check'])) {
