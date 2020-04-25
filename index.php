@@ -147,7 +147,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 placeholder="eg 2348012345678 or 08012345678" required />
               <small id="emailHelp" class="form-text text-muted">Note: whatever format used for registration
                 will only
-                be recognized for your accoutn henceforth</small>
+                be recognized for your account henceforth</small>
             </div>
 
             <button type="submit" name="register" value="register" class="btn btn-secondary">Submit</button>
